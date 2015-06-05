@@ -6,4 +6,7 @@ fangeregister:
     - mongo
 mongo:
   image: mongo:3.0.1
-
+logistikk:
+  image: mesanfagark/reaktiv-logistikk
+  ports:
+    - "9999:9999"
