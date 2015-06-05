@@ -32,3 +32,7 @@ Merk at du muligens må forwarde porter ut av Docker for å få kontakt fra Wind
 `boot2docker.exe ssh -L 49000:localhost:49000 -L 9999:localhost:9999`
 
 Legg på flere `-L port:localhost:port` skilt med mellomrom for å forwarde flere porter.
+
+Tips fra Trond Marius:
+
+_Legg inn IPen til boot2docker i hosts, og referer den fra utsiden. Jeg kaller min localdocker, og alle porter er da tilgjengelig som localdocker:49xxx._
