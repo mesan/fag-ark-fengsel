@@ -29,6 +29,6 @@ Det `dc` gjør er å eksponere mappen du er i til Docker Compose containeren, sl
 
 Merk at du muligens må forwarde porter ut av Docker for å få kontakt fra Windows. Det kan gjøres med denne kommandoen:
 
-`boot2docker.exe ssh -L 49000:localhost:49000`
+`boot2docker.exe ssh -L 49000:localhost:49000 -L 9999:localhost:9999`
 
 Legg på flere `-L port:localhost:port` skilt med mellomrom for å forwarde flere porter.
