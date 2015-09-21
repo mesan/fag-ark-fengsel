@@ -10,3 +10,8 @@ logistikk:
   image: mesanfagark/reaktiv-logistikk
   ports:
     - "9999:9999"
+isolat:
+  image: mesanfagark/reaktiv-isolat
+  ports:
+    - "9998:9998"
+
